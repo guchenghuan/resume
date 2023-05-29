@@ -3,7 +3,7 @@ export default {
   tel: "18327863706",
   email: "m18327863706_1@163.com ",
   ages: 5,
-  github: "https://github.com/IMT-happy",
+  github: "https://github.com/guchenghuan",
   website: "https://guchenghuan.com",
   juejin: "https://juejin.cn/user/2647279731480477/posts",
   edus: [
