@@ -24,7 +24,8 @@
       <div class="links">
         Github:
         <strong
-          ><a :href="github" target="_blank">{{ github }}</a></strong
+          ><a :href="github" target="_blank">{{ github }}</a
+          >(筹备开源中...)</strong
         >
       </div>
       <div class="links">
@@ -40,18 +41,16 @@
       <hr />
       <Advance :advance="advance"></Advance>
     </div>
-    <div class="skills">
-      <h4>技能清单</h4>
-      <hr />
-      <Skills :skills="skills"></Skills>
-    </div>
-
     <div v-if="works" class="interns">
       <h4>工作经历</h4>
       <hr />
       <List :source="works"></List>
     </div>
-
+    <div class="skills">
+      <h4>技术剖面</h4>
+      <hr />
+      <Intro :skills="skills" />
+    </div>
     <div class="edu">
       <h4>教育背景</h4>
       <hr />
@@ -62,8 +61,8 @@
 
 <script>
 import List from "./List";
-import Skills from "./Skills";
 import Advance from "./Advance";
+import Intro from "./Intro";
 import info from "../assets/info";
 
 export default {
@@ -73,8 +72,8 @@ export default {
   },
   components: {
     List,
-    Skills,
     Advance,
+    Intro,
   },
 };
 </script>

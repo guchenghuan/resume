@@ -40,6 +40,8 @@ export default {
       "MongoDB",
       "Docker",
       "GoLang",
+      "Webpack",
+      "Linux",
     ],
     tests: [
       "Cypress",
