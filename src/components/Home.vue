@@ -30,7 +30,8 @@
       <div class="links">
         掘金:
         <strong
-          ><a :href="juejin" target="_blank">{{ juejin }}</a></strong
+          ><a :href="juejin" target="_blank">{{ juejin }}</a
+          >(3.3W+ 阅读量，300+ 点赞)</strong
         >
       </div>
     </div>
