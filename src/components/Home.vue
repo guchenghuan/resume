@@ -32,7 +32,7 @@
         掘金:
         <strong
           ><a :href="juejin" target="_blank">{{ juejin }}</a
-          >(3.3W+ 阅读量，300+ 点赞)</strong
+          >(3.3W+ 阅读量)</strong
         >
       </div>
     </div>

@@ -74,7 +74,7 @@ export default {
             type: "radar",
             data: [
               {
-                value: [95, 90, 80, 95, 90, 70, 50, 70],
+                value: [95, 90, 80, 95, 90, 70, 80, 50],
                 name: "Score",
                 areaStyle: {
                   color: new this.$echarts.graphic.RadialGradient(0.1, 0.6, 1, [
