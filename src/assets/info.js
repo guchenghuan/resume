@@ -118,7 +118,7 @@ export default {
     {
       left: "携程 @金融服务",
       link: "",
-      right: "2019年04月",
+      right: "2018年06月 - 2020年04月",
       children: [
         {
           left: "使用 *Selenium / CukeTest* 进行接口自动化的编写开发",

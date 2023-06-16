@@ -14,13 +14,13 @@
     <div class="contact">
       <h4>个人链接</h4>
       <hr />
-      <!-- <div class="blogs">
+      <div class="blogs">
         个人主页:
         <strong
           ><a :href="website" target="_blank">{{ website }}</a
-          >（很酷的个人页）</strong
+          >（个人网站）</strong
         >
-      </div> -->
+      </div>
       <div class="links">
         Github:
         <strong
