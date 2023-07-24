@@ -4,7 +4,7 @@ export default {
   email: "m18327863706_1@163.com ",
   ages: 5,
   github: "https://github.com/guchenghuan",
-  website: "https://guchenghuan.com",
+  website: "http://guchenghuan.com/",
   juejin: "https://juejin.cn/user/2647279731480477/posts",
   edus: [
     {

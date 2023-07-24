@@ -17,22 +17,19 @@
       <div class="blogs">
         个人主页:
         <strong
-          ><a :href="website" target="_blank">{{ website }}</a
-          >（个人网站）</strong
+          ><a :href="website" target="_blank">{{ website }}</a></strong
         >
       </div>
       <div class="links">
         Github:
         <strong
-          ><a :href="github" target="_blank">{{ github }}</a
-          >(筹备开源中...)</strong
+          ><a :href="github" target="_blank">{{ github }}</a></strong
         >
       </div>
       <div class="links">
         掘金:
         <strong
-          ><a :href="juejin" target="_blank">{{ juejin }}</a
-          >(3.3W+ 阅读量)</strong
+          ><a :href="juejin" target="_blank">{{ juejin }}</a></strong
         >
       </div>
     </div>
