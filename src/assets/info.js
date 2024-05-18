@@ -2,7 +2,7 @@ export default {
   name: "顾成焕",
   tel: "18327863706",
   email: "m18327863706_1@163.com ",
-  ages: 5,
+  ages: 6,
   github: "https://github.com/guchenghuan",
   website: "http://guchenghuan.com/",
   juejin: "https://juejin.cn/user/2647279731480477/posts",
