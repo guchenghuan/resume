@@ -28,6 +28,18 @@
             </span>
             <span class="right">{{ childrenItem.right }}</span>
           </p>
+          <ul>
+            <li
+              v-for="(childrenItems, index) in childrenItem.children"
+              :key="index"
+            >
+              <p class="children-item">
+                <span class="left">
+                  <span v-html="renderLeft(childrenItems.left)"></span>
+                </span>
+              </p>
+            </li>
+          </ul>
         </li>
       </ul>
     </li>
