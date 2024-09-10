@@ -7,29 +7,29 @@
         <strong class="email">{{ email }}</strong>
         工作经验:
         <strong class="email">{{ ages }}</strong
-        >年
+        >年+
       </p>
     </div>
 
     <div class="contact">
       <h4>个人链接</h4>
       <hr />
-      <div class="blogs">
+      <!-- <div class="blogs">
         个人主页:
         <strong
           ><a :href="website" target="_blank">{{ website }}</a></strong
+        >
+      </div> -->
+      <div class="links">
+        掘金:
+        <strong
+          ><a :href="juejin" target="_blank">{{ juejin }}</a></strong
         >
       </div>
       <div class="links">
         Github:
         <strong
           ><a :href="github" target="_blank">{{ github }}</a></strong
-        >
-      </div>
-      <div class="links">
-        掘金:
-        <strong
-          ><a :href="juejin" target="_blank">{{ juejin }}</a></strong
         >
       </div>
     </div>
@@ -57,22 +57,22 @@
 </template>
 
 <script>
-import List from "./List";
-import Advance from "./Advance";
-import Intro from "./Intro";
-import info from "../assets/info";
+import List from './List'
+import Advance from './Advance'
+import Intro from './Intro'
+import info from '../assets/info'
 
 export default {
-  name: "Home",
+  name: 'Home',
   data() {
-    return info;
+    return info
   },
   components: {
     List,
     Advance,
     Intro,
   },
-};
+}
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
