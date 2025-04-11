@@ -7,7 +7,7 @@
         <strong class="email">{{ email }}</strong>
         工作经验:
         <strong class="email">{{ ages }}</strong
-        >年+
+        >年
       </p>
     </div>
 

@@ -4,15 +4,15 @@
       <div class="cover-main">
         <div class="cover-main-left">
           <p style="margin-top: 10px">
-            拥有丰富的测试工具开发经验，前端开发经验。
+            拥有丰富的测试工具开发经验，前端开发经验，后端开发经验。
           </p>
-          <!-- <p style="margin-top: 10px">我可以使用它们来创造工作中需要的一切：</p>
+          <p style="margin-top: 10px">我可以使用它们来创造工作中需要的一切：</p>
           <ul>
             <li>JavaScript</li>
             <li>TypeScript</li>
             <li>Node.js</li>
             <li>JAVA</li>
-          </ul> -->
+          </ul>
           <p style="margin-top: 10px">我可以使用它们来十分出色的完成工作：</p>
           <p><strong>技术：</strong></p>
           {{ skills.techs.join(', ') }}
