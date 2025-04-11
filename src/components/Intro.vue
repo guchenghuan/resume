@@ -118,7 +118,7 @@ export default {
 .cover-img {
   position: relative;
   overflow: hidden;
-  width: 320px;
+  width: 350px;
   height: 318px;
   padding: 0px;
   margin: 0px;
