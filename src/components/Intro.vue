@@ -3,9 +3,6 @@
     <div class="intro-me">
       <div class="cover-main">
         <div class="cover-main-left">
-          <p style="margin-top: 10px">
-            拥有丰富的测试工具开发经验，前端开发经验，后端开发经验。
-          </p>
           <p style="margin-top: 10px">我可以使用它们来创造工作中需要的一切：</p>
           <ul>
             <li>JavaScript</li>
@@ -71,7 +68,7 @@ export default {
             type: 'radar',
             data: [
               {
-                value: [95, 90, 80, 95, 90, 90, 80, 75],
+                value: [95, 90, 90, 95, 90, 90, 90, 80],
                 name: 'Score',
                 areaStyle: {
                   color: new this.$echarts.graphic.RadialGradient(0.1, 0.6, 1, [

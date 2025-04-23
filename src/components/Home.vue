@@ -26,12 +26,12 @@
           ><a :href="juejin" target="_blank">{{ juejin }}</a></strong
         >
       </div>
-      <div class="links">
+      <!-- <div class="links">
         Github:
         <strong
           ><a :href="github" target="_blank">{{ github }}</a></strong
         >
-      </div>
+      </div> -->
     </div>
     <div class="skills">
       <h4>个人优势</h4>
