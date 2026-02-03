@@ -5,9 +5,9 @@
         <div class="cover-main-left">
           <p style="margin-top: 10px">我可以使用它们来创造工作中需要的一切：</p>
           <ul>
-            <li>JavaScript</li>
             <li>TypeScript</li>
-            <li>Node.js</li>
+            <li>NodeJs</li>
+            <li>Python</li>
             <li>JAVA</li>
           </ul>
           <p style="margin-top: 10px">我可以使用它们来十分出色的完成工作：</p>
@@ -50,7 +50,7 @@ export default {
           indicator: [
             { name: 'JavaScript', max: 100 },
             { name: 'TypeScript', max: 100 },
-            { name: 'css', max: 100 },
+            { name: 'Python', max: 100 },
             { name: 'Vue', max: 100 },
             { name: 'React', max: 100 },
             { name: 'Node.js', max: 100 },
@@ -68,7 +68,7 @@ export default {
             type: 'radar',
             data: [
               {
-                value: [95, 90, 90, 95, 90, 90, 90, 80],
+                value: [95, 90, 80, 95, 90, 90, 90, 80],
                 name: 'Score',
                 areaStyle: {
                   color: new this.$echarts.graphic.RadialGradient(0.1, 0.6, 1, [
