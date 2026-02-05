@@ -1,7 +1,7 @@
 export default {
   name: '顾成焕',
   tel: '18327863706',
-  email: 'm18327863706_1@163.com ',
+  email: '18327863706@163.com ',
   ages: 8,
   github: 'https://github.com/guchenghuan',
   website: 'http://guchenghuan.com/',
@@ -60,7 +60,7 @@ export default {
   },
   works: [
     {
-      left: '京东 @效能研发部-后端测试服务组',
+      left: '京东 @效能研发部',
       link: '',
       right: '2025年07月 - 至今',
       children: [
@@ -68,7 +68,7 @@ export default {
           left: '主要职责：',
           children: [
             {
-              left: '负责DongTest平台智能化方向，带5名同学主导智能用例生成工程整体建设',
+              left: '负责测试资产管理平台智能化方向，带5名同学主导智能用例/自动化生成工程整体建设',
             },
             {
               left: '主导知识库RAG系统设计，落地Multi-Agent智能化架构，构建统一智能服务中枢',
